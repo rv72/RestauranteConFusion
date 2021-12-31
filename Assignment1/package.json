@@ -1,0 +1,24 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "The first assignment in Course 1.",
+  "main": "aboutus.html",
+  "scripts": {
+    "start": "npm run lite", 
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rv72/assignment1.git"
+  },
+  "author": "Reuben Varghese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rv72/assignment1/issues"
+  },
+  "homepage": "https://github.com/rv72/assignment1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
