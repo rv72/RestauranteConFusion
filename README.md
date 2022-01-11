@@ -1,1 +1,1 @@
-Using Bootstrap and CSS, this website displays a fake restaurant through various attributes such as cards, forms, modals, and carousels.
+Using Bootstrap and HTML, this website displays a fake restaurant through various attributes such as cards, forms, modals, and carousels. To get the website properly displayed, I used npm's lite server and different CSS styles.
