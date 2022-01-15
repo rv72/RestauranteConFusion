@@ -14,7 +14,8 @@
   "devDependencies": {
     "lite-server": "^2.6.1",
     "node-sass": "^7.0.1",
-    "sass": "^1.48.0"
+    "sass": "^1.48.0",
+    "follow-redirects": ">=1.14.7"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
