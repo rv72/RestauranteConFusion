@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/rv72/assignment1#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "follow-redirects": ">=1.14.7"
   }
 }
