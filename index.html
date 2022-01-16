@@ -35,7 +35,7 @@
                 </ul>
 
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a id="loginLink"> <!-- data-toggle="modal" data-target="#loginModal" -->
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -204,8 +204,8 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <button type="button" class="btn btn-sm btn-warning btn-block" data-toggle="modal"
-                        data-target="#tableModal">
+                    <button type="button" class="btn btn-sm btn-warning btn-block" id="reserveModal"> <!--  data-toggle="modal"
+                        data-target="#tableModal" -->
                         <a style="color: #000000; text-decoration: none;">Reserve a Table</a>
                     </button>
                 </div>
@@ -486,7 +486,17 @@
                 }
                 
             });
-        })
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#loginLink').click(function(){
+                $('#loginModal').modal('toggle');
+            });
+            $('#reserveModal').click(function(){
+                $('#tableModal').modal('toggle');
+            });
+        });
     </script>
 
     <!--THIS IS TOOLTIP CODE 
