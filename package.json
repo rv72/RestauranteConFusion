@@ -28,7 +28,7 @@
     "parallelshell": "^3.0.1",
     "rimraf": "^2.6.2",
     "sass": "^1.48.0",
-    "uglifyjs": "^2.4.11",
+    "uglifyjs": ">=2.6.0",
     "usemin-cli": "^0.5.1"
   },
   "dependencies": {
